@@ -26,11 +26,13 @@ Create a temp table to store the missing ID pairs and get back the player’s na
 
 
 Limitations of Apex Oracles
-1. Could not store all the data from the source. It only provide around 30,000 kb of storage space. We have over 600,000 data. 
+1. Could not store all the data from the source. It only provide around 30,000 kb of storage space. We have over 600,000 data.
+
 Solution: Sort and remove unnecessary or extra data rows by hand
 Only keep data from 2018 onwards. Data from 2003 to 2017 are removed
 
 2. Could not be edited and opened by multiple users at the same time
+
 Solution: Only have 1 groupmate to work on Apex Oracles at a time
 
 Conclusions: Insights
